@@ -1,6 +1,10 @@
-# platform :ios, ‘9.0’
+
+platform :ios, ‘8.0’
+
 use_frameworks!
 
 target 'LXPlayer' do
-    pod 'SnapKit', '~> 3.2.0'
+    pod 'AFNetworking', '~> 3.0'
 end
+
+

@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-LXPlayer.xcscheme</key>
+		<key>AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SnapKit.xcscheme</key>
+		<key>Pods-LXPlayer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0AF14ACA1D77D77FD2EDFBB0ABCF0C41</key>
+		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>747D7D1E14B9ED22862D3CE984B69D19</key>
+		<key>E21C0D3AB9C1D4039CFAA9D45ED9639C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
