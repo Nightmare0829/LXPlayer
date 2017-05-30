@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		03AD3A9D1652CA48866866C2 /* Pods_LXPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862FBE77B358A0CF98F79600 /* Pods_LXPlayer.framework */; };
+		C929AE9B1EDD312900B36990 /* CALayer+PauseAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = C929AE9A1EDD312900B36990 /* CALayer+PauseAnimate.m */; };
+		C929AEA11EDD32E600B36990 /* UIImage+LXImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C929AEA01EDD32E600B36990 /* UIImage+LXImage.m */; };
+		C929AEA41EDD339500B36990 /* UIView+LXView.m in Sources */ = {isa = PBXBuildFile; fileRef = C929AEA31EDD339500B36990 /* UIView+LXView.m */; };
+		C929AEB11EDD385C00B36990 /* LXBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C929AEB01EDD385C00B36990 /* LXBaseTabBarController.m */; };
 		C93AE01F1EDBD235005DF1BB /* LXPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C93AE01E1EDBD235005DF1BB /* LXPlayerTests.m */; };
 		C93AE02A1EDBD236005DF1BB /* LXPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C93AE0291EDBD236005DF1BB /* LXPlayerUITests.m */; };
-		C9909E921EDD20FF00B8BE4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9909E8C1EDD20FF00B8BE4C /* Assets.xcassets */; };
 		C9909E931EDD20FF00B8BE4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9909E8F1EDD20FF00B8BE4C /* AppDelegate.m */; };
 		C9909E941EDD20FF00B8BE4C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9909E901EDD20FF00B8BE4C /* Info.plist */; };
 		C9909E951EDD20FF00B8BE4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9909E911EDD20FF00B8BE4C /* main.m */; };
+		C9909E9A1EDD2BD100B8BE4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9909E981EDD2BD100B8BE4C /* LaunchScreen.storyboard */; };
+		C9909E9B1EDD2BD100B8BE4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9909E991EDD2BD100B8BE4C /* Main.storyboard */; };
+		C9909E9D1EDD2FEA00B8BE4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9909E9C1EDD2FEA00B8BE4C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,14 @@
 /* Begin PBXFileReference section */
 		00E4921D4A8CC5DD04F67E79 /* Pods-LXPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXPlayer/Pods-LXPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		862FBE77B358A0CF98F79600 /* Pods_LXPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C929AE991EDD312900B36990 /* CALayer+PauseAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAnimate.h"; sourceTree = "<group>"; };
+		C929AE9A1EDD312900B36990 /* CALayer+PauseAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAnimate.m"; sourceTree = "<group>"; };
+		C929AE9F1EDD32E600B36990 /* UIImage+LXImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LXImage.h"; sourceTree = "<group>"; };
+		C929AEA01EDD32E600B36990 /* UIImage+LXImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LXImage.m"; sourceTree = "<group>"; };
+		C929AEA21EDD339500B36990 /* UIView+LXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LXView.h"; sourceTree = "<group>"; };
+		C929AEA31EDD339500B36990 /* UIView+LXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LXView.m"; sourceTree = "<group>"; };
+		C929AEAF1EDD385C00B36990 /* LXBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBaseTabBarController.h; sourceTree = "<group>"; };
+		C929AEB01EDD385C00B36990 /* LXBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBaseTabBarController.m; sourceTree = "<group>"; };
 		C93AE0011EDBD235005DF1BB /* LXPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93AE01A1EDBD235005DF1BB /* LXPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93AE01E1EDBD235005DF1BB /* LXPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXPlayerTests.m; sourceTree = "<group>"; };
@@ -43,11 +57,13 @@
 		C93AE0251EDBD236005DF1BB /* LXPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93AE0291EDBD236005DF1BB /* LXPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXPlayerUITests.m; sourceTree = "<group>"; };
 		C93AE02B1EDBD236005DF1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9909E8C1EDD20FF00B8BE4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9909E8E1EDD20FF00B8BE4C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9909E8F1EDD20FF00B8BE4C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C9909E901EDD20FF00B8BE4C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9909E911EDD20FF00B8BE4C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9909E981EDD2BD100B8BE4C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9909E991EDD2BD100B8BE4C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C9909E9C1EDD2FEA00B8BE4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF2EB068C691F3303006FAF2 /* Pods-LXPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXPlayer/Pods-LXPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +110,234 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C929AE981EDD30A600B36990 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C929AE991EDD312900B36990 /* CALayer+PauseAnimate.h */,
+				C929AE9A1EDD312900B36990 /* CALayer+PauseAnimate.m */,
+				C929AE9F1EDD32E600B36990 /* UIImage+LXImage.h */,
+				C929AEA01EDD32E600B36990 /* UIImage+LXImage.m */,
+				C929AEA21EDD339500B36990 /* UIView+LXView.h */,
+				C929AEA31EDD339500B36990 /* UIView+LXView.m */,
+			);
+			name = Categories;
+			path = Classes/Categories;
+			sourceTree = "<group>";
+		};
+		C929AEA51EDD355100B36990 /* MainModules */ = {
+			isa = PBXGroup;
+			children = (
+				C929AEA61EDD357500B36990 /* BaseModules */,
+			);
+			path = MainModules;
+			sourceTree = "<group>";
+		};
+		C929AEA61EDD357500B36990 /* BaseModules */ = {
+			isa = PBXGroup;
+			children = (
+				C929AEB21EDD396100B36990 /* CenterPlayer */,
+				C929AEB61EDD396100B36990 /* Discover */,
+				C929AEBA1EDD396100B36990 /* Download */,
+				C929AEBE1EDD396100B36990 /* Mine */,
+				C929AEC21EDD396100B36990 /* Subscribe */,
+				C929AEAA1EDD383C00B36990 /* Base */,
+			);
+			path = BaseModules;
+			sourceTree = "<group>";
+		};
+		C929AEAA1EDD383C00B36990 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C929AEC61EDD39C600B36990 /* Models */,
+				C929AEC71EDD39C600B36990 /* Views */,
+				C929AEAE1EDD385C00B36990 /* Controllers */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C929AEAE1EDD385C00B36990 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C929AEAF1EDD385C00B36990 /* LXBaseTabBarController.h */,
+				C929AEB01EDD385C00B36990 /* LXBaseTabBarController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C929AEB21EDD396100B36990 /* CenterPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C929AEB31EDD396100B36990 /* Controllers */,
+				C929AEB41EDD396100B36990 /* Models */,
+				C929AEB51EDD396100B36990 /* Views */,
+			);
+			name = CenterPlayer;
+			path = Base/CenterPlayer;
+			sourceTree = "<group>";
+		};
+		C929AEB31EDD396100B36990 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C929AEB41EDD396100B36990 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C929AEB51EDD396100B36990 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C929AEB61EDD396100B36990 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				C929AEB71EDD396100B36990 /* Controllers */,
+				C929AEB81EDD396100B36990 /* Models */,
+				C929AEB91EDD396100B36990 /* Views */,
+			);
+			name = Discover;
+			path = Base/Discover;
+			sourceTree = "<group>";
+		};
+		C929AEB71EDD396100B36990 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C929AEB81EDD396100B36990 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C929AEB91EDD396100B36990 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C929AEBA1EDD396100B36990 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				C929AEBB1EDD396100B36990 /* Controllers */,
+				C929AEBC1EDD396100B36990 /* Models */,
+				C929AEBD1EDD396100B36990 /* Views */,
+			);
+			name = Download;
+			path = Base/Download;
+			sourceTree = "<group>";
+		};
+		C929AEBB1EDD396100B36990 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C929AEBC1EDD396100B36990 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C929AEBD1EDD396100B36990 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C929AEBE1EDD396100B36990 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				C929AEBF1EDD396100B36990 /* Controllers */,
+				C929AEC01EDD396100B36990 /* Models */,
+				C929AEC11EDD396100B36990 /* Views */,
+			);
+			name = Mine;
+			path = Base/Mine;
+			sourceTree = "<group>";
+		};
+		C929AEBF1EDD396100B36990 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C929AEC01EDD396100B36990 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C929AEC11EDD396100B36990 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C929AEC21EDD396100B36990 /* Subscribe */ = {
+			isa = PBXGroup;
+			children = (
+				C929AEC31EDD396100B36990 /* Controllers */,
+				C929AEC41EDD396100B36990 /* Models */,
+				C929AEC51EDD396100B36990 /* Views */,
+			);
+			name = Subscribe;
+			path = Base/Subscribe;
+			sourceTree = "<group>";
+		};
+		C929AEC31EDD396100B36990 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C929AEC41EDD396100B36990 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C929AEC51EDD396100B36990 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C929AEC61EDD39C600B36990 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C929AEC71EDD39C600B36990 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C93ADFF81EDBD235005DF1BB = {
 			isa = PBXGroup;
 			children = (
@@ -137,8 +381,10 @@
 		C9909E8B1EDD20FF00B8BE4C /* LXPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				C929AEA51EDD355100B36990 /* MainModules */,
+				C929AE981EDD30A600B36990 /* Categories */,
+				C9909E971EDD2BB000B8BE4C /* Storyboards */,
 				C9909E8D1EDD20FF00B8BE4C /* System */,
-				C9909E8C1EDD20FF00B8BE4C /* Assets.xcassets */,
 			);
 			path = LXPlayer;
 			sourceTree = "<group>";
@@ -146,12 +392,22 @@
 		C9909E8D1EDD20FF00B8BE4C /* System */ = {
 			isa = PBXGroup;
 			children = (
+				C9909E9C1EDD2FEA00B8BE4C /* Assets.xcassets */,
 				C9909E8E1EDD20FF00B8BE4C /* AppDelegate.h */,
 				C9909E8F1EDD20FF00B8BE4C /* AppDelegate.m */,
 				C9909E901EDD20FF00B8BE4C /* Info.plist */,
 				C9909E911EDD20FF00B8BE4C /* main.m */,
 			);
 			path = System;
+			sourceTree = "<group>";
+		};
+		C9909E971EDD2BB000B8BE4C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C9909E981EDD2BD100B8BE4C /* LaunchScreen.storyboard */,
+				C9909E991EDD2BD100B8BE4C /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +475,7 @@
 		C93ADFF91EDBD235005DF1BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LX;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Sire;
 				TargetAttributes = {
@@ -266,8 +523,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9909E9A1EDD2BD100B8BE4C /* LaunchScreen.storyboard in Resources */,
 				C9909E941EDD20FF00B8BE4C /* Info.plist in Resources */,
-				C9909E921EDD20FF00B8BE4C /* Assets.xcassets in Resources */,
+				C9909E9D1EDD2FEA00B8BE4C /* Assets.xcassets in Resources */,
+				C9909E9B1EDD2BD100B8BE4C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +599,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C929AE9B1EDD312900B36990 /* CALayer+PauseAnimate.m in Sources */,
+				C929AEA41EDD339500B36990 /* UIView+LXView.m in Sources */,
+				C929AEB11EDD385C00B36990 /* LXBaseTabBarController.m in Sources */,
 				C9909E951EDD20FF00B8BE4C /* main.m in Sources */,
 				C9909E931EDD20FF00B8BE4C /* AppDelegate.m in Sources */,
+				C929AEA11EDD32E600B36990 /* UIImage+LXImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +681,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -460,7 +723,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -472,9 +735,10 @@
 			baseConfigurationReference = CF2EB068C691F3303006FAF2 /* Pods-LXPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = HY6T393C2M;
-				INFOPLIST_FILE = LXPlayer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = LXPlayer/System/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sire.LXPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -486,9 +750,10 @@
 			baseConfigurationReference = 00E4921D4A8CC5DD04F67E79 /* Pods-LXPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = HY6T393C2M;
-				INFOPLIST_FILE = LXPlayer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = LXPlayer/System/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sire.LXPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
