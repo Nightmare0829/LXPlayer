@@ -1,3 +1,3 @@
 # LXPlayer
 # a nice project
-## Writen by Steven Le! 
+## Written by Steven Le! 

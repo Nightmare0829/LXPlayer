@@ -33,7 +33,7 @@
 }
 
 - (void)setTabbar {
-//    [self setValue:[[ alloc] init]] forKey:@"tabBar"];
+    [self setValue:[[ alloc] init]] forKey:@"tabBar"];
 }
 
 @end
